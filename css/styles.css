@@ -1,0 +1,271 @@
+:root {
+  --primary-text-color: #212121;
+  --second-text-color: #757575;
+  --accent-text-color: #2196f3;
+  --primary-button-color: #2196f3;
+  --secondary-logo-color: #000000;
+  --primary-logo-color: #2196f3;
+  --primary-bg-color: #ffffff;
+  --secondary-bg-color: #2f303a;
+  --secondary-btn-color: #f5f4fa;
+  --color-link: rgba(255, 255, 255, 0.6);
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-family: "Roboto", sans-serif;
+
+  color: var(--primary-text-color);
+  background-color: var(--primary-bg-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+
+  color: var(--primary-logo-color);
+}
+
+.studio {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+
+  color: var(--secondary-logo-color);
+}
+
+.footer {
+  background-color: var(--secondary-bg-color);
+}
+.footer-studio {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+
+  color: var(--primary-bg-color);
+}
+
+/* ---------Студія----------- */
+/* ----------HERO------------ */
+.hero {
+  height: 600px;
+  background-color: var(--secondary-bg-color);
+}
+
+.hero-h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: var(--primary-bg-color);
+}
+
+.hero-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+
+  background-color: var(--primary-button-color);
+  color: var(--primary-bg-color);
+
+  cursor: pointer;
+}
+
+/* ----------FEATURE------------- */
+
+.feature-h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--primary-text-color);
+}
+
+.feature-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: var(--second-text-color);
+}
+
+/* -----------WORK----------- */
+
+.work-h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--primary-text-color);
+}
+
+/* ------------OUR TEAM----------- */
+
+.our-team-h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--primary-text-color);
+}
+
+.our-team-h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+  color: var(--primary-text-color);
+}
+
+.our-team-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+  color: var(--second-text-color);
+}
+.link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+
+  color: var(--primary-text-color);
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent-text-color);
+}
+
+.mailto-header {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+
+  color: var(--second-text-color);
+}
+
+.tel-header {
+  font-family: "Roboto", sans-serif;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+
+  color: var(--second-text-color);
+}
+
+.mailto-header:hover,
+.mailto-header:focus {
+  color: var(--accent-text-color);
+}
+
+.tel-header:hover,
+.tel-header:focus {
+  color: var(--accent-text-color);
+}
+
+.mailto-footer {
+  font-family: "Roboto", sans-serif;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+.tel-footer {
+  font-family: "Roboto", sans-serif;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.mailto-footer:hover,
+.mailto-footer:focus {
+  color: var(--accent-text-color);
+}
+
+.tel-footer:hover,
+.tel-footer:focus {
+  color: var(--accent-text-color);
+}
+.footer-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+
+  color: var(--primary-bg-color);
+}
+.button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+
+  color: var(--primary-text-color);
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--primary-button-color);
+  color: var(--primary-bg-color);
+}
+
+.text-primary {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+
+  color: var(--primary-text-color);
+}
+
+.text-secondary {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+
+  color: var(--second-text-color);
+}
